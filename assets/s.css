@@ -1,0 +1,737 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Nunito+Sans:opsz@6..12&family=Oswald:wght@500&family=Poppins:wght@200&family=Roboto+Slab:wght@700&family=Sofia+Sans+Condensed:ital,wght@1,200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 30%;
+    /* background-color: rgb(66, 97, 97); */
+    padding: 15px;
+}
+
+nav .logo-class {
+    float: left;
+    display: flex;
+
+}
+
+nav .logo-class h1 {
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #06BBCC;
+    margin-left: 7%;
+}
+
+nav .logo-class i {
+    font-size: 34px;
+    color: #06BBCC;
+    margin-left: 5%;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #181D38;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+
+nav ul li a:hover {
+    color: #06BBCC;
+}
+
+nav ul .active {
+    color: #06BBCC;
+}
+
+.checkbtn {
+    color: rgb(94, 72, 72);
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* nav ending */
+
+/* firsrt sec */
+#first-sec {
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+
+    background-image: url(./images/carousel-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#first-sec h5 {
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 19px;
+    font-weight: 900;
+    color: #06BBCC;
+    letter-spacing: 2px;
+}
+
+#first-sec h1 {
+    width: 100%;
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+    padding-top: 1%;
+    padding-left: 10%;
+}
+
+#first-sec p {
+    font-size: 15px;
+    color: white;
+    font-weight: 900;
+    padding-top: 1%;
+    padding-left: 10%;
+}
+
+.firstsec-buttons {
+    width: 100%;
+    height: 40%;
+
+    display: flex;
+}
+
+.firstsec-buttons .read {
+    margin-top: 10px;
+    width: 10%;
+    height: 13%;
+    margin-left: 10%;
+    font-size: 15px;
+    color: white;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06BBCC;
+    cursor: pointer;
+}
+
+.firstsec-buttons .join {
+    margin-top: 10px;
+    width: 10%;
+    height: 13%;
+    margin-left: 1%;
+    font-size: 15px;
+    color: black;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* 2 sec card sec*/
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.container .card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-height: 100vh; */
+    /* background-color: beige; */
+}
+
+.container .card .card-items {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(239, 239, 253);
+    margin: 30px;
+    padding: 3px;
+}
+
+.card-items i {
+    text-align: center;
+    font-size: 17px;
+}
+
+.card-items h3,
+p {
+    text-align: center;
+}
+
+.container .card .card-items:hover {
+    background-color: #95bdbe;
+    cursor: pointer;
+
+}
+
+/* 3rd sec */
+.container1 {
+    width: 100%;
+    height: auto;
+
+}
+
+.container1 .row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 40px;
+
+}
+
+.container1 .row .column {
+    padding: 10px;
+    width: 100%;
+
+}
+
+.container1 .row .column img {
+    width: 100%;
+    height: 70%;
+}
+
+.container1 .row .column h6 {
+    font-size: 16px;
+    color: #06BBCC;
+    padding-left: 30px;
+}
+
+.container1 .row .column h1 {
+    font-size: 29px;
+    padding-left: 30px;
+}
+
+.container1 .row .column p {
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.container1 .row .column input {
+    width: 110px;
+    height: 40px;
+    background-color: #06BBCC;
+    color: white;
+    margin-top: 49px;
+    margin-left: 31px;
+}
+
+/* 4th sec */
+.container2 {
+
+    width: 100%;
+    height: auto;
+    /* background-color: #181D38; */
+}
+
+.container2 h3 {
+    font-size: 29px;
+    text-align: center;
+
+}
+
+.container2 .row {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 40px;
+}
+
+.container2 .row .column1 {
+    width: 60%;
+    height: 80vh;
+
+}
+
+.container2 .row .column2 {
+    width: 40%;
+    height: 80vh;
+
+}
+
+.container2 .row .column2 img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.container2 .row .column1 img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+/* 5th sec */
+.container3 {
+    width: 100%;
+    height: auto;
+    /* background-color: #181D38; */
+}
+
+.container3 h3 {
+    text-align: center;
+    font-size: 29px;
+}
+
+.container3 .card {
+    width: 100%;
+    height: auto;
+    margin-left: 110px;
+    display: flex;
+
+}
+
+.container3 .card .card-content {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 174, 255);
+    margin: 10px;
+}
+
+.container3 .card .card-content .card-img img {
+    width: 300px;
+    height: 160px;
+}
+
+/* 6th sec */
+.container4 {
+    width: 100%;
+    height: auto;
+    /* background-color: hotpink; */
+}
+
+.container4 h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.container4 .card {
+    width: 100%;
+    height: auto;
+    margin-left: 110px;
+    display: flex;
+}
+
+.container4 .card .card-content {
+    width: 300px;
+    height: 270px;
+    background-color: rgb(252, 250, 243);
+    margin-left: 10px;
+}
+
+.container4 .card .card-content .card-img img {
+    width: 300px;
+    height: 200px;
+}
+
+/* 7th sec */
+.testinomials {
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    /* background-color: darkslategrey; */
+    text-align: center;
+}
+
+.testinomials .inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.testinomials .inner .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testinomials .inner .row .col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.testinomials .inner .row .col .testinomial {
+    /* background: white; */
+    padding: 20px;
+}
+
+.testinomials .inner .row .col .testinomial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testinomials .inner .row .col .testinomial h4 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.testinomials .inner .row .col .testinomial .para {
+    font-size: 10px;
+}
+
+/* footer sec */
+.last {
+    width: 100%;
+    height: auto;
+    background-color: #181D38;
+}
+
+.last .row {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+}
+
+.last .row .column {
+
+    width: 25%;
+    height: auto;
+    padding: 10px;
+ 
+
+
+}
+.last .row .column .up {
+    display: flex;
+    flex-wrap: wrap;
+}
+.last .row .column .up img{
+    width: 30%;
+    height: auto;
+    padding: 1px;
+}
+.last .row .column .down{
+    display: flex;
+    flex-wrap: wrap;
+}
+.last .row .column .down img{
+    width: 30%;
+    height: auto;
+    padding: 1px;
+}
+
+
+
+
+
+
+
+/* media query for navbar */
+@media screen and (max-width:990px) {
+    nav {
+        padding: 0px 50px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    nav .logo-class h1 {
+        font-size: 30px;
+    }
+
+    nav ul {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        position: fixed;
+        top: 75px;
+        /* or top=10% */
+        left: -100%;
+        text-align: left;
+        transition: 0.4s ease;
+
+    }
+
+    nav ul li {
+        display: block;
+        margin: 60px 0px;
+
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+/* media query for 1st sec */
+@media (max-width:600px) {
+    #first-sec h5 {
+        font-size: 22px;
+        display: flex;
+    }
+
+    #first-sec h1 {
+        font-size: 30px;
+        color: white;
+        font-weight: 900;
+        padding-top: 1%;
+        padding-left: 10%;
+    }
+
+    .firstsec-buttons {
+        display: flex;
+        width: 100%;
+        height: 40%;
+    }
+
+    .firstsec-buttons .read {
+        margin-top: 10px;
+        width: 30%;
+        height: 13%;
+        margin-left: 10%;
+        font-size: 15px;
+        color: white;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #06BBCC;
+        cursor: pointer;
+    }
+
+    .firstsec-buttons .join {
+        margin-top: 10px;
+        width: 30%;
+        height: 13%;
+        margin-left: 10%;
+        font-size: 15px;
+    }
+
+    /* card sec */
+    .container {
+        width: 100%;
+        height: 130vh;
+    }
+
+    .container .card {
+        width: 100%;
+        display: block;
+    }
+
+    .container .card .card-items {
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+
+    /* 3rd sec */
+    .container1 {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .container1 .row {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 10px;
+    }
+
+    .container1 .row .column img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container1 .row .column h6 {
+        font-size: 22px;
+        text-align: center;
+        padding-left: 30px;
+
+    }
+
+    .container1 .row .column h1 {
+        font-size: 25px;
+        padding-left: 30px;
+        text-align: center;
+    }
+
+    .container1 .row .column p {
+        font-size: 19px;
+        text-align: justify;
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+
+    .container1 .row .column input {
+        font-size: 19px;
+    }
+
+    /* 4th sec */
+    .container2 {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .container2 h3 {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 900;
+    }
+
+    .container2 .row {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 40px;
+    }
+
+    .container2 .row .column1 {
+        width: 100%;
+        height: 60vh;
+
+    }
+
+    .container2 .row .column2 {
+        width: 100%;
+        height: 60vh;
+
+    }
+
+    .container2 .row .column2 img {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+
+    .container2 .row .column1 img {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+
+    /* 5th sec */
+    .container3 {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .container3 h3 {
+        text-align: center;
+        font-size: 29px;
+    }
+
+    .container3 .card {
+        width: 100%;
+        height: auto;
+        margin: 20px;
+        display: block;
+        padding-left: 30px;
+
+    }
+
+    .container3 .card .card-content {
+        width: 300px;
+        height: 300px;
+        /* background-color: aqua; */
+    }
+
+    .container3 .card .card-content .card-img img {
+        width: 300px;
+        height: 160px;
+
+    }
+
+    /* 6thsec */
+    .container4 {
+        width: 100%;
+        height: auto;
+        /* background-color: hotpink; */
+    }
+
+    .container4 h4 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .container4 .card {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        display: block;
+        padding-top: 20px;
+    }
+
+    .container4 .card .card-content {
+        width: auto;
+        height: 270px;
+        background-color: rgb(252, 250, 243);
+        /* margin-left: 10px; */
+    }
+
+    .container4 .card .card-content .card-img img {
+        width: 100%;
+        height: 200px;
+        padding-top: 20px;
+    }
+
+    /* 7th sec */
+    .testinomials .inner .row {
+        display: block;
+    }
+
+    .testinomials .inner .row .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    /* footer sec */
+    .last {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .last .row {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        display: block;
+    }
+    .last .row .column {
+
+        width: 100%;
+        height: auto;
+        padding: 10px;
+      
+    
+    }
+
+}
